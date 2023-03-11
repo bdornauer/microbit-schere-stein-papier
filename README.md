@@ -31,7 +31,7 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 2. Wenn nicht, gehe zum nächsten Schritt und folge der Anleitung. 
 
 PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst basteln, denn ihr dürft 
-diesen behalten :-). 
+den Microbit behalten :-). 
 
 ## Schritt 1: Shaken 
 Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagieren. Deshalb benötigen wir zum Auslösen
@@ -90,7 +90,7 @@ zweimaliges Drücken auf + am Ende des wenn ... dann-Blocks die neuen Fälle. Gl
 wir überprüfen, ob hand auch 2 ist. Gehe gleich vor wie beim vorherigen Schritt.
 
 Beim letzten Fall müssen wir keine Überprüfung auf hand == 3 vornehmen, da dies immer der Fall ist, wenn
-die Fälle Papier (=1) und die Fälle Papier (=1) und Schere (=2) bereits überprüft wurden und nicht zugetroffen sind.
+die die Fälle Papier (=1) und Schere (=2) bereits überprüft wurden und nicht zugetroffen sind.
 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
@@ -127,4 +127,4 @@ input.onGesture(Gesture.Shake, function () {
 ## Finale Lösung
 Das ist die Finale Lösung: 
 ![A rendered view of the blocks](https://github.com/bdornauer/microbit-schere-stein-papier/raw/master/.github/makecode/blocks.png)
-[Link zur Quelle](https://microbit.eeducation.at/wiki/SchereSteinPapier)
+[Link zur Aufgabenquelle](https://microbit.eeducation.at/wiki/SchereSteinPapier)
