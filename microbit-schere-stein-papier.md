@@ -5,7 +5,6 @@ Bibi oder ConCrafter? Pizza oder doch lieber Burger zum Mittagessen? Chillen ode
 den neuen Kletterpark erkunden? Und wer ist nun eigentlich heute der "Lauch", der das Geschirr 
 abwaschen muss: du oder deine Schwester? 
 
-
 ## Problemstellung: Wer übernimmt die Entscheidung ? (1)
 Eine gefühlte Ewigkeit diskutieren du und deine Freunde, 
 deine Geschwister oder deine Eltern und niemand möchte nachgeben. Eine gemeinsame Entscheidung? 
@@ -25,7 +24,11 @@ Du baust dein eigenes schummelsicheres No-cheat-micro:bit-Schere-Stein-Papier al
 Die Regeln kennen wir alle: Schere schlägt Papier, Papier schlägt Stein und Stein schlägt Schere – 
 aber dank des *micro:bits völlig schummelfrei*!
 
-## Lösungsansatz
+## Aufgabenstellung 
+Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn du den Microbit shakest 
+(wackelst), wird Schere, Stein oder Bild auf dem 5x5 LED-Display angezeigt. 
+
+PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause basteln :-). 
 
 
 
