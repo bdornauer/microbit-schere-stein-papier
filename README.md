@@ -1,29 +1,9 @@
 
 > Open this page at [https://bdornauer.github.io/microbit-schere-stein-papier/](https://bdornauer.github.io/microbit-schere-stein-papier/)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/bdornauer/microbit-schere-stein-papier** and import
-
-## Edit this project ![Build status badge](https://github.com/bdornauer/microbit-schere-stein-papier/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/bdornauer/microbit-schere-stein-papier** and click import
-
-## Blocks preview
-
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](https://github.com/bdornauer/microbit-schere-stein-papier/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
@@ -62,4 +42,7 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 
 PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause basteln :-). 
 
+
+## Finale Lösung
+![A rendered view of the blocks](https://github.com/bdornauer/microbit-schere-stein-papier/raw/master/.github/makecode/blocks.png)
 [Link zur Quelle](https://microbit.eeducation.at/wiki/SchereSteinPapier)
