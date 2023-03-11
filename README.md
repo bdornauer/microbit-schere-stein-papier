@@ -12,7 +12,6 @@ Von wegen, für beide Möglichkeiten sprechen wirklich gute Gründe, die ihr euc
 um die Ohren haut.
 
 ## Problemstellung: Wer übernimmt die Entscheidung ? (2)
-
 Und nun? Schmollen? Das funktioniert schon lange nicht mehr und ist ja eigentlich, wenn wir ehrlich
 sind, verlorene Zeit. Letztendlich muss ja doch eine Entscheidung getroffen werden. Münzenwerfen? 
 Schade um die Münze! Schere, Stein, Papier? Eigentlich eine gute Lösung, wenn da nicht die vielen 
@@ -26,9 +25,77 @@ aber dank des *micro:bits völlig schummelfrei*!
 
 ## Aufgabenstellung 
 Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn du den Microbit shakest 
-(wackelst), wird Schere, Stein oder Bild auf dem 5x5 LED-Display angezeigt. 
+(wackelst), wird Schere, Stein oder Papier auf dem 5x5 LED-Display angezeigt. Gehe nun wie folgt vor: 
 
-PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause basteln :-). 
+1. Wenn du glaubst es selbst zu schaffen, dann probiere es einmal selbständig. 
+2. Wenn nicht, gehe zum nächsten Schritt und folge der Anleitung. 
+
+PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst basteln, denn ihr dürft 
+diesen behalten :-). 
+
+## Schritt 1: 
+Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagierne. Deshalb benötigen zum Auslösen 
+folgenden Codeblock: 
+
+``` blocks
+input.onGesture(Gesture.Shake, function () {
+
+})
+
+```
+
+``` blocks
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    }
+```
+
+``` blocks
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    if (hand == 1) {
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
+            # # # # #
+            `)
+})
+
+```
+
+
+
+``` blocks
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    if (hand == 1) {
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
+            # # # # #
+            `)
+    } else if (hand == 2) {
+        basic.showLeds(`
+            . . . . .
+            . # # # .
+            . # # # .
+            . # # # .
+            . . . . .
+            `)
+    } else {
+        basic.showLeds(`
+            # # . . #
+            # # . # .
+            . . # . .
+            # # . # .
+            # # . . #
+            `)
+    }
+})
 
 
 ## Finale Lösung
