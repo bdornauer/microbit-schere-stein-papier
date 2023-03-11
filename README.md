@@ -34,8 +34,8 @@ PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst ba
 diesen behalten :-). 
 
 ## Schritt 1: Shaken 
-Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagierne. Deshalb benötigen zum Auslösen 
-folgenden Codeblock: 
+Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagieren. Deshalb benötigen wir zum Auslösen 
+folgenden Codeblock. Wird der Microbit geschüttelt, löst dieser Befehl die Blöcke innerhalb dieses Blocks aus. 
 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
@@ -44,24 +44,32 @@ input.onGesture(Gesture.Shake, function () {
 
 ```
 
-## Schritt 2: Zufällige Schere (1), Stein (2)ODER Papier (3) wählen  
+## Schritt 2: Zufällige Schere (1), Stein (2) ODER Papier (3) wählen  
 
 Der Microbit muss zufällig zwischen Papier, Schere oder Stein wählen. Da er diese Namen nicht so einfach
-zufällig auswählen kann, sondern nur Zahlen kennt, müssen wir eine andere Bennenung finden. Deswegen findne wir
-eine neue Bennung: 
+zufällig auswählen kann, sondern nur Zahlen kennt, müssen wir eine andere Bennenung finden. Deswegen legen wir
+folgende Bennungen fest: 
 - `Papier` ist ab jetzt 1. 
 - `Stein` ist ab jetzt 2. 
 - `Schere` ist ab jetzt 3.
 
+Mit dem Block "wähle eine zufällige Zahle von 1 bis 3" wird eine Zahl x vom Computer zwischen 1 und 3 festegellt.
+Anschließend wird die zufällige Zahl der Varialbe, welchen den Wert speichert, übergeben. Das bedeutet, 
+`hand` kann 1 für `Papier` sein oder 2 für `Stein` oder 3 für `Schere`. 
 
- 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
     }
 ```
 
-## Schritt 3: Wenn 
+## Schritt 3: Fall - Papier (=1) gewählt 
+Nun müssen wir für den ersten Fall Papier, eine Grafik auf dem 5x5 LED-Grid anzeigen. Dazu gehen wir wie folgt vor: 
+1. Wir müssen zunächst vergleichen, ob Papier auch wirklich Papier ist. Das bedeutet wir setzten die Variable
+hand gleich 1, um zu checken, ob dies der Fall ist. 
+2. Wenn WAHR, also zufällig 1 gewählt wurde, wird das Innere des Blockes ausgeführt. Das müssen wir noch festlegen. 
+3. Dazu benötigen wir den Block `zeige LEDs`, Durch klicken der einzelnen LEDs, wird bestimmt ob diese leuchten oder nicht. 
+Du kann entweder selbst ein Muster überlegen oder das gegebene nehmen. 
 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
@@ -69,9 +77,9 @@ input.onGesture(Gesture.Shake, function () {
     if (hand == 1) {
         basic.showLeds(`
             # # # # #
-            # . . . #
-            # . . . #
-            # . . . #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # #
             `)
 })
