@@ -123,8 +123,5 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-
-## Finale Lösung
-Das ist die Finale Lösung: 
-![A rendered view of the blocks](https://github.com/bdornauer/microbit-schere-stein-papier/raw/master/.github/makecode/blocks.png)
-[Link zur Aufgabenquelle](https://microbit.eeducation.at/wiki/SchereSteinPapier)
+Gratuliere du hast die Aufgabe gelöst!!!! Jetzt kannst du selber weiter arbeiten .
+- Erweitere Schere-Stein-Papier, um Stein, Papier, Schere, Echse, Spock (BigbangTheory)[https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock]
