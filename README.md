@@ -122,6 +122,10 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 ```
+## Super! Gratuliere du hast das Ende ereicht. 
 
 Gratuliere du hast die Aufgabe gelöst!!!! Jetzt kannst du selber weiter arbeiten .
-- Erweitere Schere-Stein-Papier, um Stein, Papier, Schere, Echse, Spock (BigbangTheory)[https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock]
+- Erweitere Schere-Stein-Papier, um Stein, Papier, Schere, Echse, Spock 
+(BigbangTheory)[https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock]
+- Erstelle ein Cheat-Schere-Stein Papier, wo du durch Drücken des Knopfes A immer auf den Fall stein kommst. 
+- ODER Überlege dir selbst etwas. 
