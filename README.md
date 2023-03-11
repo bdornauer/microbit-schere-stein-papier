@@ -62,8 +62,4 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 
 PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause basteln :-). 
 
-
-
-
-
 [Link zur Quelle](https://microbit.eeducation.at/wiki/SchereSteinPapier)
