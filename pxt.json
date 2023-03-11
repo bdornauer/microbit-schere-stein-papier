@@ -10,8 +10,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "microbit-schere-stein-papier.md",
-        "_locales/en-AT/microbit-schere-stein-papier.md"
+        "microbit-schere-stein-papier.md"
     ],
     "testFiles": [
         "test.ts"
