@@ -28,7 +28,8 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 (wackelst), wird Schere, Stein oder Papier auf dem 5x5 LED-Display angezeigt. Gehe nun wie folgt vor: 
 
 1. Wenn du glaubst es selbst zu schaffen, dann probiere es einmal selbständig. 
-2. Wenn nicht, gehe zum nächsten Schritt und folge der Anleitung. 
+2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst,
+gehe zum nächsten Schritt und folge der Anleitung. 
 
 PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst basteln, denn ihr dürft 
 den Microbit behalten :-). 
@@ -52,7 +53,8 @@ folgende Bennungen fest:
 - Papier ist ab jetzt 1.
 - Stein ist ab jetzt 2.
 - Schere ist ab jetzt 3.
-Mit dem Block "wähle eine zufällige Zahl von 1 bis 3" wird eine Zahl x vom Computer zwischen 1 und 3 festgelegt.
+
+Mit dem Block `wähle eine zufällige Zahl von 1 bis 3` wird eine Zahl x vom Computer zwischen 1 und 3 festgelegt.
 Anschließend wird die zufällige Zahl der Variable, welchen den Wert speichert, übergeben. Das bedeutet,
 hand kann 1 für Papier sein oder 2 für Stein oder 3 für Schere.
 
@@ -65,10 +67,10 @@ input.onGesture(Gesture.Shake, function () {
 ## Schritt 3: Fall - Papier (=1) gewählt 
 Nun müssen wir für den ersten Fall Papier, eine Grafik auf dem 5x5 LED-Grid anzeigen. Dazu gehen wir wie folgt vor:
 
-1. Wir müssen zunächst vergleichen, ob Papier auch wirklich Papier ist. Das bedeutet wir setzen die Variable
-hand gleich 1, um zu checken, ob dies der Fall ist.
-2. Wenn WAHR, also zufällig 1 gewählt wurde, wird der innere 'wenn ... dann' Block ausgeführt.
-3. Nun benötigen wir nur noch den Block zeige LEDs. Durch Klicken der einzelnen LEDs wird bestimmt, ob diese leuchten oder nicht.
+1. Wir müssen zunächst vergleichen, ob Papier auch wirklich Papier ist. Das bedeutet wir vergleichen die Variable
+`hand` ob sie gleich 1, um zu checken, ob dies der Fall ist.
+2. Wenn WAHR, also zufällig 1 gewählt wurde, wird der innere `wenn ... dann` Block ausgeführt.
+3. Nun benötigen wir nur noch den Block `zeige LEDs`. Durch Klicken der einzelnen LEDs wird bestimmt, ob diese leuchten oder nicht.
 Du kannst entweder selbst ein Muster überlegen oder das gegebene Muster verwenden.
 
 ``` blocks
@@ -86,10 +88,10 @@ input.onGesture(Gesture.Shake, function () {
 ```
 ## Schritt 4: Nun müssen nur noch die Fälle Stein (=2) und Schere (=3) umsetzen
 Gleich wie bei vorherigen Fall, müssen wir noch den Fall Stein überprüfen. Dazu erweitern wir durch
-zweimaliges Drücken auf + am Ende des wenn ... dann-Blocks die neuen Fälle. Gleich wie beim vorherigen Schritt, müssen
+zweimaliges Drücken auf + am Ende des `wenn ... dann` - Blocks die neuen Fälle. Gleich wie beim vorherigen Schritt, müssen
 wir überprüfen, ob hand auch 2 ist. Gehe gleich vor wie beim vorherigen Schritt.
 
-Beim letzten Fall müssen wir keine Überprüfung auf hand == 3 vornehmen, da dies immer der Fall ist, wenn
+Beim letzten Fall müssen wir keine Überprüfung auf `hand == 3` vornehmen, da dies immer der Fall ist, wenn
 die die Fälle Papier (=1) und Schere (=2) bereits überprüft wurden und nicht zugetroffen sind.
 
 ``` blocks
@@ -122,10 +124,11 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 ```
-## Super! Gratuliere du hast das Ende ereicht. 
+## Gratuliere du hast das Ende ereicht. 
 
-Gratuliere du hast die Aufgabe gelöst!!!! Jetzt kannst du selber weiter arbeiten .
-- Erweitere Schere-Stein-Papier, um Stein, Papier, Schere, Echse, Spock 
-(BigbangTheory)[https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock]
-- Erstelle ein Cheat-Schere-Stein Papier, wo du durch Drücken des Knopfes A immer auf den Fall stein kommst. 
+Gratuliere du hast die Aufgabe gelöst 👍👍👍👍 Jetzt kannst du selber weiter arbeiten.
+- Passe die Darstellungen von Schere, Stein und Papier an. 
+- Erweitere Schere-Stein-Papier, um Stein-Papier-Schere-Echse-Spock 
+[BigbangTheory](https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock)
+- Erstelle ein Cheat-Schere-Stein Papier, wo du durch Drücken des Knopfes A immer auf den Fall Stein kommst. 
 - ODER Überlege dir selbst etwas. 
