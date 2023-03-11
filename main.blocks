@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Xi2:Z7,9#F*j5U[WXKNZ" x="0" y="0"></block><block type="device_forever" id="]M{Lv;J52%#G|UHn,=,S" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3An:vvO,Dxv|*B=[g*Se">hand</variable></variables><block type="device_gesture_event" id="r@{3wnfFD}aB39PUAYiH" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="sI4cyX!h{wXbGt(mS2{j"><field name="VAR" id="3An:vvO,Dxv|*B=[g*Se">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="I9q6tpQA7^L,sd?/IFn2"><value name="min"><shadow type="math_number" id="U%o|cyX0~h3g4ZN-4oa;"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="C=[GHuDSiiNcL/w-w*}V"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="Aiw]*%WJObko^S*iefu~"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="6AkPw)MD-g+xqC(=$QQ}"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="A_v%biGOhluGu3WA`E~X"><field name="VAR" id="3An:vvO,Dxv|*B=[g*Se">hand</field></block></value><value name="B"><shadow type="math_number" id="YXhsSEQ*{LZbb5Y~]:zn"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="_/u,rhxb1vkhT*O`cF?T"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+_gA$C~k)4%r7}}X$E#;"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="0q}A;pkpghb(B|~;8uRa"><field name="VAR" id="3An:vvO,Dxv|*B=[g*Se">hand</field></block></value><value name="B"><shadow type="math_number" id="+1IS1Wlf.d#W8t?;JAfU"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=")-lRW()~FayO+d?3{f:p"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="DV(8H1XtAX%c?VHo(}!y"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
