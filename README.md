@@ -1,18 +1,6 @@
-
-> Open this page at [https://bdornauer.github.io/microbit-schere-stein-papier/](https://bdornauer.github.io/microbit-schere-stein-papier/)
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-
 # Microbit Schere-Stein-Papier 
 
-# Fragen über Fragen
+## Fragen über Fragen
 Bibi oder ConCrafter? Pizza oder doch lieber Burger zum Mittagessen? Chillen oder endlich einmal 
 den neuen Kletterpark erkunden? Und wer ist nun eigentlich heute der "Lauch", der das Geschirr 
 abwaschen muss: du oder deine Schwester? 
