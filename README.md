@@ -1,13 +1,5 @@
 # Microbit Schere-Stein-Papier 
 
-``` blocks
-basic.forever(function () {
-basic.showIcon(IconNames.Heart)
-basic.pause(20)
-basic.showIcon(IconNames.SmallHeart)
-})
-```
-
 ## Fragen über Fragen
 Bibi oder ConCrafter? Pizza oder doch lieber Burger zum Mittagessen? Chillen oder endlich einmal 
 den neuen Kletterpark erkunden? Und wer ist nun eigentlich heute der "Lauch", der das Geschirr 
@@ -86,8 +78,6 @@ input.onGesture(Gesture.Shake, function () {
 
 ```
 
-
-
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
@@ -117,6 +107,7 @@ input.onGesture(Gesture.Shake, function () {
             `)
     }
 })
+```
 
 
 ## Finale Lösung
