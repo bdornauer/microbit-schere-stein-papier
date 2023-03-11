@@ -132,3 +132,11 @@ Gratuliere du hast die Aufgabe gelöst 👍👍👍👍 Jetzt kannst du selber w
 [BigbangTheory](https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock)
 - Erstelle ein Cheat-Schere-Stein Papier, wo du durch Drücken des Knopfes A immer auf den Fall Stein kommst. 
 - ODER Überlege dir selbst etwas. 
+
+#### Metadata (used for search, rendering)
+
+* for PXT/microbit
+<script src="https://makecode.com/gh-pages-embed.js">
+</script><script>makeCodeRender("{{ site.makecode.home_url }}", 
+"{{ site.github.owner_name }}/{{ site.github.repository_name }}");
+</script>
