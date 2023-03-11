@@ -33,7 +33,7 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst basteln, denn ihr dürft 
 diesen behalten :-). 
 
-## Schritt 1: 
+## Schritt 1: Shaken 
 Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagierne. Deshalb benötigen zum Auslösen 
 folgenden Codeblock: 
 
@@ -44,11 +44,24 @@ input.onGesture(Gesture.Shake, function () {
 
 ```
 
+## Schritt 2: Zufällige Schere (1), Stein (2)ODER Papier (3) wählen  
+
+Der Microbit muss zufällig zwischen Papier, Schere oder Stein wählen. Da er diese Namen nicht so einfach
+zufällig auswählen kann, sondern nur Zahlen kennt, müssen wir eine andere Bennenung finden. Deswegen findne wir
+eine neue Bennung: 
+- `Papier` ist ab jetzt 1. 
+- `Stein` ist ab jetzt 2. 
+- `Schere` ist ab jetzt 3.
+
+
+ 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
     }
 ```
+
+## Schritt 3: Wenn 
 
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
