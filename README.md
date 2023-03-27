@@ -31,8 +31,7 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst,
 gehe zum nächsten Schritt und folge der Anleitung. 
 
-PS: Das Band des Wearables, könnt ihr im Werkunterricht oder zu Hause selbst basteln, denn ihr dürft 
-den Microbit behalten :-). 
+PS: Das Band des Wearables, könnt ihr z.B. im Werkunterricht oder zu Hause selbst basteln :-). 
 
 ## Schritt 1: Shaken 
 Jedesmal wenn wir den Microbit schütteln, muss dieser darauf reagieren. Deshalb benötigen wir zum Auslösen
