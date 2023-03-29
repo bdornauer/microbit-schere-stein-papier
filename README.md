@@ -1,4 +1,4 @@
-# Microbit Schere-Stein-Papier 
+# Micro:bit Schere-Stein-Papier 
 
 ##Introduction @unplugged 
 
@@ -23,17 +23,16 @@ Die Regeln kennen wir alle: Schere schlägt Papier, Papier schlägt Stein und St
 aber dank des *micro:bits völlig schummelfrei*!
 
 ## Aufgabenstellung 
-Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn du den Microbit schüttelst, 
+Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn du den Micro:bit schüttelst, 
 wird Schere, Stein oder Papier auf dem 5x5 LED-Display angezeigt. Gehe nun wie folgt vor: 
 
 1. Wenn du glaubst es selbst zu schaffen, dann probiere es einmal selbständig. 
-2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst,
-gehe zum nächsten Schritt und folge der Anleitung. 
+2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst, gehe zum nächsten Schritt und folge der Anleitung. 
 
 PS: Das Band des Wearables, könnt ihr z.B. im Werkunterricht oder zu Hause selbst basteln :-). 
 
 ## Schritt 1: Shaken 
-Jedesmal wenn du den Microbit schüttelst, muss dieser darauf reagieren. Deshalb benötigst du als Eingabe
+Jedesmal wenn du den Micro:bit schüttelst, muss dieser darauf reagieren. Deshalb benötigst du als Eingabe
 einen Codeblock, der auslöst wenn du ihn schüttelst. 
 
 ``` blocks
@@ -45,7 +44,7 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Schritt 2: Zufällige Schere (1), Stein (2) ODER Papier (3) wählen  
 
-Der Microbit muss zufällig zwischen Papier, Schere oder Stein wählen. Da er diese Namen nicht so einfach
+Der Micro:bit muss zufällig zwischen Papier, Schere oder Stein wählen. Da der Micro:bit diese Namen nicht so einfach
 zufällig auswählen kann, sondern nur Zahlen kennt, müssen wir eine andere Bennenung finden. Deswegen legen wir
 folgende Bennungen fest:
 - Papier ist ab jetzt 1.
