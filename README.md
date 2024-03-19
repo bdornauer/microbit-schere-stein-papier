@@ -35,7 +35,7 @@ PS: Das Band des Wearables, könnt ihr z.B. im Werkunterricht oder zu Hause selb
 Jedesmal wenn du den Micro:bit schüttelst, muss dieser darauf reagieren. Deshalb benötigst du als Eingabe
 einen Codeblock, der auslöst wenn du ihn schüttelst. 
 
-``` blocks
+``` ghost
 input.onGesture(Gesture.Shake, function () {
 
 })
@@ -52,7 +52,7 @@ folgende Bennungen fest:
 - Schere ist ab jetzt 3.
 Erstelle eine Variable, in der du einen Wert zwischenspeicherst. Dieser Wert soll zufällig von 1 bis 3 gewählt werden. 
 
-``` blocks
+``` ghost
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
     }
@@ -64,7 +64,7 @@ Nun müssen wir für den ersten Fall Papier, eine Grafik auf dem 5x5 LED-Grid an
 Wir müssen zunächst vergleichen, ob Papier auch wirklich Papier ist. Das bedeutet, wir vergleichen den zufällig gewählten Wert
 der Variable ob dieser gleich 1 ist. Wenn dies zutrifft (WAHR), soll auf dem Display eine dazu passende Grafik angezeigt werden. 
 
-``` blocks
+``` ghost
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
     if (hand == 1) {
@@ -85,7 +85,7 @@ wir überprüfen, ob der Wert der Variable 2 ist. Stelle das ganze auf dem Displ
 Beim letzten Fall (=3) müssen wir keine Überprüfung des Wertes der Variable vornehmen, da dies immer der Fall ist, wenn
 die Fälle Papier (=1) und Schere (=2) bereits überprüft wurden und nicht zugetroffen sind.
 
-``` blocks
+``` ghost
 input.onGesture(Gesture.Shake, function () {
     hand = randint(1, 3)
     if (hand == 1) {
