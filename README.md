@@ -26,8 +26,8 @@ aber dank des *micro:bits völlig schummelfrei*!
 Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn du den Micro:bit schüttelst, 
 wird Schere, Stein oder Papier auf dem 5x5 LED-Display angezeigt. Gehe nun wie folgt vor: 
 
-1. Wenn du glaubst es selbst zu schaffen, dann probiere es einmal selbständig. 
-2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst, gehe zum nächsten Schritt und folge der Anleitung. 
+1. Probiere selbst das Tutorial zu lösen. 
+2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst, frage den Couch.  
 
 PS: Das Band des Wearables, könnt ihr z.B. im Werkunterricht oder zu Hause selbst basteln :-). 
 
